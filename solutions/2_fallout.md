@@ -1,4 +1,4 @@
-# Solve the lagacy dependency
+# Solve the legacy dependency
 
 If you try to compile the puzzle contract directly, you will find this error 
 
