@@ -12,4 +12,11 @@ https://github.com/Vincent71399/ethernaut_solution/blob/master/contracts/3_CoinF
 
 deploy it with the puzzle address
 
-then run the 
+then run the cheatGuess() 10 times as the puzzle requested
+
+# Notice 
+
+new block will be added by other transactions in a public blockchain, so once the correct answer is calculated, need to call guess function immediately in code, in the attacker code coinFlip.flip is called directly after knowing the answer
+
+![image](https://github.com/Vincent71399/ethernaut_solution/assets/10882410/54437a1f-ea10-4038-9b5f-1b452e71f486)
+
